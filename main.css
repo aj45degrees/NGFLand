@@ -1,0 +1,221 @@
+.container {
+    min-width: 640px;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    min-height: 100vh;
+}
+
+.header {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 156px;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header > img {
+    width: 299px;
+    height: 82px;
+    padding: 37px 0;
+}
+
+.jumbotron {
+    /* border: 1px solid blue; */
+    height: 900px;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-image: url("./assets/images/jumbotron-bkgd.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+    background-position: center center;
+    justify-items: center;
+    align-items: center;
+}
+
+main {
+    margin-top: 18px;
+    /* padding-top: 18px; */
+    display: grid;
+    text-align: center;
+    /* border: 1px solid greenyellow; */
+}
+
+main > h1 {
+    font-size: 2.5em;
+}
+
+main > p {
+    font-size: 1.25em;
+    padding: 0 20px 0 20px;
+}
+
+div.services-section {
+    margin-top: 18px;
+    /* border: 1px solid burlywood; */
+    font-size: 1.25em;
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+
+div.services-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.bookkeeping {
+    /* border: 1px solid blue; */
+    width: 124px;
+    height: auto;
+    /* margin: 0 3px 0 3px; */
+    /* padding: 0 3px 0 3px; */
+}
+
+.accounting {
+    /* border: 1px solid blue; */
+    width: 162px;
+    height: auto;
+    /* margin: 0 3px 0 3px; */
+    /* padding: 0 3px 0 3px; */
+}
+
+.payroll {
+    /* border: 1px solid blue; */
+    width: 125px;
+    height: auto;
+    /* margin: 0 3px 0 3px; */
+    /* padding: 0 3px 0 3px; */
+}
+
+div.contact-form {
+    margin-top: 18px;
+    /* border: 1px solid blueviolet; */
+    font-size: 1.25em;
+    text-align: center;
+}
+
+div.contact-form > h1 {
+    font-size: 2.25em;
+}
+
+footer {
+    margin-top: 18px;
+}
+
+h2.jumbo-title {
+    color: white !important;
+    opacity: 1.0 !important;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+    /* position: relative; */
+    /* max-width: 610px; */
+}
+
+.emphasis {
+    font-weight: bold;
+}
+
+.jumbo-button {
+    display: grid;
+    border: none;
+    width: 303px;
+    height: 70px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    background-color: rgba(255, 158, 24, 1.0);
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    justify-content: center;
+    align-content: center;
+}
+
+.jumbo-button:hover {
+    transition: transform 0.3s;
+    background-color: white;
+    color: rgba(255, 158, 24, 1.0);
+    border: 3px solid rgba(255, 158, 24, 1.0);
+    box-shadow: 5px 5px 2px 2px rgba(255, 255, 255, 0.2);
+    height: 80px;
+    width: 313px;
+}
+
+#main-form {
+    padding-bottom: 278px;
+    /* width: 100%; */
+    /* border-bottom: 1px solid red; */
+}
+
+footer {
+    display: grid;
+    position: absolute;
+    bottom: 0;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 278px;
+    background: rgba(84, 86, 90, 1.0);
+    /* justify-items: space-around; */
+    align-items: center;
+}
+
+.footer-items-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    /* border: 1px solid white; */
+}
+
+.logo-orange {
+    width: 355.08px;
+    height: 97.29px;
+}
+
+.footer-spacer {
+    width: 25px;
+}
+
+.footer-socials-container {
+    color: #ffffff;
+    font-size: 1.25em;
+}
+
+.footer-socials {
+    padding-top: 8px;
+    display: flex;
+}
+
+.facebook, .instagram, .linkedin {
+    width: 37px;
+    height: 37px;
+    padding-right: 10px;
+}
+
+.form-container {
+    display: grid;
+    justify-items: center;
+    width: 640px;
+}
+
+#mc_embed_signup {
+    width: 100%;
+    /* border-top: 1px solid red; */
+}
+
+#mce-EMAIL, #mce-FNAME, #mce-LNAME {
+    min-width: 360px;
+    width: 65%;
+}
