@@ -39,7 +39,8 @@ header > img {
 }
 
 main {
-    margin-top: 18px;
+    margin-top: 54px;
+    margin-bottom: 54px;
     /* padding-top: 18px; */
     display: grid;
     text-align: center;
@@ -63,6 +64,8 @@ div.services-section {
     text-align: center;
     justify-items: center;
     align-items: center;
+    padding-bottom: 36px;
+    padding-top: 18px;
 }
 
 div.services-flex-container {
@@ -70,6 +73,12 @@ div.services-flex-container {
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-evenly;
+    padding-bottom: 18px;
+}
+
+.services-bkgd {
+    background-color:rgba(207, 210, 211, 0.70);
+    padding-bottom: 18px;
 }
 
 .bookkeeping {
@@ -97,7 +106,8 @@ div.services-flex-container {
 }
 
 div.contact-form {
-    margin-top: 18px;
+    margin-top: 36px;
+    padding-bottom: 18px;
     /* border: 1px solid blueviolet; */
     font-size: 1.25em;
     text-align: center;
@@ -154,7 +164,7 @@ h2.jumbo-title {
 }
 
 #main-form {
-    padding-bottom: 278px;
+    padding-bottom: 314px;
     /* width: 100%; */
     /* border-bottom: 1px solid red; */
 }
@@ -169,6 +179,8 @@ footer {
     background: rgba(84, 86, 90, 1.0);
     /* justify-items: space-around; */
     align-items: center;
+    /* padding-top: 18px; */
+    margin-top: 36px;
 }
 
 .footer-items-container {
