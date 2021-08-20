@@ -5,31 +5,11 @@ body {
 
 .container {
     width: 100%;
-    margin: auto;
-    min-width: 640px;
-    font-family: 'Ubuntu', sans-serif;
-    position: relative;
-    min-height: 100vh;
-    /* max-width: 1366px; */
-    /* display: grid; */
-    /* justify-items: center; */
-}
-
-.jumbo-button {
-    display: grid;
-    border: none;
-    width: 275px;
-    height: 50px;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 500;
-    font-size: 1.25em;
-    background-color: rgba(255, 158, 24, 1.0);
-    color: white;
-    border-radius: 0px;
-    text-decoration: none;
-    justify-content: center;
-    align-content: center;
-    text-transform: uppercase;
+	margin: auto;
+	min-width: 640px;
+	font-family: 'Ubuntu', sans-serif;
+	position: relative;
+	min-height: 100vh;
 }
 
 .header {
@@ -65,7 +45,6 @@ header > img {
     justify-items: center;
     align-items: center;
 }
-
 h2.jumbo-title {
     color: white !important;
     opacity: 1.0 !important;
@@ -79,15 +58,33 @@ h2.jumbo-title {
     margin-top: 0em;
 }
 
-main {
-    /* margin-top: 54px; */
-    /* margin-bottom: 54px; */
-    /* padding-top: 18px; */
+.jumbo-button {
     display: grid;
-    text-align: center;
-    /* border: 1px solid greenyellow; */
-    max-width: 1080px;
-    margin: 54px auto;
+    border: none;
+    width: 275px;
+    height: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 1.25em;
+    background-color: rgba(255, 158, 24, 1.0);
+    color: white;
+    border-radius: 0px;
+    text-decoration: none;
+    justify-content: center;
+    align-content: center;
+    text-transform: uppercase;
+    transition: width 0.25s, height 0.25s, linear 0.25s;
+}
+
+.jumbo-button:hover {
+    /* transition: transform 0.3s; */
+    /* transition-delay: 0.75s; */
+    background-color: white;
+    color: rgba(255, 158, 24, 1.0);
+    border: 3px solid rgba(255, 158, 24, 1.0);
+    box-shadow: 5px 5px 2px 2px rgba(255, 255, 255, 0.2);
+    height: 80px;
+    width: 313px;
 }
 
 main > h1 {
@@ -101,8 +98,15 @@ main > p {
     color: #54565A;
 }
 
-.ngf-video-wrapper {
-    margin-top: 40px;
+main {
+    /* margin-top: 54px; */
+    /* margin-bottom: 54px; */
+    /* padding-top: 18px; */
+    display: grid;
+    text-align: center;
+    /* border: 1px solid greenyellow; */
+    max-width: 1080px;
+    margin: 54px auto;
 }
 
 .ngf-video {
@@ -110,6 +114,10 @@ main > p {
     min-height: 315px;
     width: 60%;
     height: auto;
+}
+
+.ngf-video-wrapper {
+    margin-top: 40px;
 }
 
 .services-bkgd {
@@ -184,32 +192,6 @@ footer {
 
 .emphasis {
     font-weight: bold;
-}
-
-.jumbo-button {
-    display: grid;
-    border: none;
-    width: 303px;
-    height: 70px;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 500;
-    font-size: 1.5em;
-    background-color: rgba(255, 158, 24, 1.0);
-    color: white;
-    border-radius: 3px;
-    text-decoration: none;
-    justify-content: center;
-    align-content: center;
-}
-
-.jumbo-button:hover {
-    transition: transform 0.3s;
-    background-color: white;
-    color: rgba(255, 158, 24, 1.0);
-    border: 3px solid rgba(255, 158, 24, 1.0);
-    box-shadow: 5px 5px 2px 2px rgba(255, 255, 255, 0.2);
-    height: 80px;
-    width: 313px;
 }
 
 #main-form {
@@ -334,20 +316,30 @@ main p:last-child {
     font-size: 18px;
 }
 
-#mc-embedded-subscribe {
+input#mc-embedded-subscribe.button {
     border: none;
     width: 275px;
     height: 50px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
     font-size: 1.25em;
-    background-color: rgba(255, 158, 24, 1.0);
+    background-color: rgba(255, 158, 24, 1.0) !important;
     color: white;
     border-radius: 0px;
     text-decoration: none;
     justify-content: center;
     align-content: center;
     text-transform: uppercase;
+    transition: width 0.25s, height 0.25s, linear 0.25s;
+}
+
+input#mc-embedded-subscribe.button:hover {
+    /* background-color: white; */
+    /* color: rgba(255, 158, 24, 1.0); */
+    /* border: 3px solid rgba(255, 158, 24, 1.0); */
+    box-shadow: 5px 5px 2px 2px rgba(255, 255, 255, 0.4);
+    height: 80px;
+    width: 313px;
 }
 
 /*** End Additions ***/
