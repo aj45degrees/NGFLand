@@ -66,6 +66,19 @@ header > img {
     align-items: center;
 }
 
+h2.jumbo-title {
+    color: white !important;
+    opacity: 1.0 !important;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 3.5em;
+    text-align: center;
+    width: 100%;
+    /* position: relative; */
+    max-width: 1080px;
+    margin-top: 0em;
+}
+
 main {
     /* margin-top: 54px; */
     /* margin-bottom: 54px; */
@@ -88,17 +101,15 @@ main > p {
     color: #54565A;
 }
 
-h2.jumbo-title {
-    color: white !important;
-    opacity: 1.0 !important;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 400;
-    font-size: 3.5em;
-    text-align: center;
-    width: 100%;
-    /* position: relative; */
-    max-width: 1080px;
-    margin-top: 0em;
+.ngf-video-wrapper {
+    margin-top: 40px;
+}
+
+.ngf-video {
+    min-width: 560px;
+    min-height: 315px;
+    width: 1120px;
+    height: 530px;
 }
 
 .services-bkgd {
