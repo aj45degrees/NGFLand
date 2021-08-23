@@ -61,7 +61,7 @@ h2.jumbo-title {
 
 .jumbo-button {
 	display: grid;
-	border: none;
+	border: 3px solid rgba(255, 158, 24, 1.0);
 	width: 275px;
 	height: 50px;
 	font-family: 'Ubuntu', sans-serif;
@@ -74,7 +74,7 @@ h2.jumbo-title {
 	justify-content: center;
 	align-content: center;
 	text-transform: uppercase;
-	transition: width 0.25s, height 0.25s, linear 0.25s;
+	transition: all 0.5s ease;
 }
 
 .jumbo-button:hover {
@@ -83,9 +83,9 @@ h2.jumbo-title {
 	background-color: white;
 	color: rgba(255, 158, 24, 1.0);
 	border: 3px solid rgba(255, 158, 24, 1.0);
-	box-shadow: 5px 5px 2px 2px rgba(255, 255, 255, 0.2);
-	height: 80px;
-	width: 313px;
+	/* box-shadow: 5px 5px 2px 2px rgb(255 255 255 / 20%); */
+	width: 275px;
+	height: 50px;
 }
 
 main>h1 {
@@ -323,30 +323,36 @@ main p:last-child {
 }
 
 input#mc-embedded-subscribe.button {
-    /* padding-top: 12px; */
-	border: none;
+    border: 3px solid rgba(255, 158, 24, 1.0);
 	width: 275px;
 	height: 50px;
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 500;
 	font-size: 1.25em;
-	background-color: rgba(255, 158, 24, 1.0) !important;
+	background-color: rgba(255, 158, 24, 1.0);
 	color: white;
 	border-radius: 0px;
 	text-decoration: none;
 	justify-content: center;
 	align-content: center;
 	text-transform: uppercase;
-	transition: width 0.25s, height 0.25s, linear 0.25s;
 }
 
 input#mc-embedded-subscribe.button:hover {
-	/* background-color: white; */
-	/* color: rgba(255, 158, 24, 1.0); */
-	/* border: 3px solid rgba(255, 158, 24, 1.0); */
-	box-shadow: 5px 5px 2px 2px rgba(255, 255, 255, 0.4);
-	height: 80px;
-	width: 313px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+	font-size: 1.25em;
+	background-color: #FFF !important;
+	border-radius: 0px;
+	text-decoration: none;
+	justify-content: center;
+	align-content: center;
+	text-transform: uppercase;
+	color: rgba(255, 158, 24, 1.0);
+	border: 3px solid rgba(255, 158, 24, 1.0);
+	/* box-shadow: 5px 5px 2px 2px rgb(255 255 255 / 20%); */
+	width: 275px;
+	height: 50px;
 }
 
 /*** End Additions ***/
