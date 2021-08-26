@@ -356,3 +356,42 @@ input#mc-embedded-subscribe.button:hover {
 }
 
 /*** End Additions ***/
+
+.ppp-callout {
+	background-color: rgba(255, 158, 24, 1.0);
+	/* margin: 0 auto; */
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	/* padding-top: 50px; */
+	/* padding-bottom: 50px; */
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+	height: 344px;
+}
+
+.ppp-grid {
+	width: 65%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+	grid-column-gap: 50px;
+}
+
+.ppp-col {
+	/* text-align: center; */
+}
+
+.ppp-hero {
+	font-size: 56px;
+}
+
+.ppp-explain {
+	font-size: 24px;
+}
+
+.ppp-vl {
+	border-left: 2px solid white;
+	height: 100%;
+}
