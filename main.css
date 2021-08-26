@@ -362,6 +362,7 @@ input#mc-embedded-subscribe.button:hover {
 	/* margin: 0 auto; */
 	display: flex;
 	justify-content: center;
+	justify-items: center;
 	align-content: center;
 	align-items: center;
 	/* padding-top: 50px; */
@@ -372,26 +373,42 @@ input#mc-embedded-subscribe.button:hover {
 }
 
 .ppp-grid {
-	width: 65%;
+	/* width: 75%; */
 	display: grid;
 	grid-template-columns: auto auto auto;
-	padding: 10px;
-	grid-column-gap: 50px;
+	/* padding: 10px; */
+	/* grid-column-gap: 80px; */
 }
 
 .ppp-col {
 	/* text-align: center; */
+	/* display: block; */
+	/* padding: 20px; */
 }
 
 .ppp-hero {
-	font-size: 56px;
+	font-size: 2.5em;
+	/* padding: 20px; */
+	padding: 20px;
+	max-width: 595.09px;
 }
 
 .ppp-explain {
-	font-size: 24px;
+	font-size: 1.25em;
+	padding: 20px 20px 20px 40px;
+	max-width: 562.32px;
+}
+
+.ppp-line {
+	text-align: center;
+	width: 40%;
+	/* border: 1px solid white; */
 }
 
 .ppp-vl {
-	border-left: 2px solid white;
-	height: 100%;
+	border-left: 1px solid white;
+	height: 80%;
+	min-height: 195px;
+	/* padding: 20px; */
+	/* text-align: center; */
 }
